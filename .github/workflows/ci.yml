@@ -20,5 +20,5 @@ jobs:
         with:
           token: ${{ secrets.DEPLOY }}
           folder: dist
-          branch: main
+          branch: gh-pages
           repository-name: kayeewong/kayeewong.github.io
