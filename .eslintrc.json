@@ -1,7 +1,15 @@
 {
   "extends": ["eslint:recommended", "plugin:react/recommended"],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["react", "@typescript-eslint", "html"],
+  "plugins": [
+    "react",
+    "@typescript-eslint",
+    "html"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
     "react/self-closing-comp": ["error"],
     "react/react-in-jsx-scope": "off",
